@@ -10,9 +10,7 @@ sudo apt install vim neovim
 sudo pacman -Syu vim neovim
 ```
 
-## Clone repository
-
-Remove packer_compiled.lua file if exists:
+## Remove packer_compiled.lua file if exists:
 ```bash
 rm ~/.config/nvim/plugin/packer_compiled.lua
 ```
