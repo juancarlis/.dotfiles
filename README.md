@@ -35,6 +35,6 @@ mv zsh_plugins/* /usr/share/zsh/plugins
 ```
 Add to .zshrc:
 ```
+source ~/.zsh_plugins/git/git.plugin.zsh
 source ~/.zshrc_aliases
-plugins(git)
 ```
