@@ -1,1 +1,6 @@
 /.config/nvim/plugin
+
+/Adcap/VPN/forticlientsslvpn/64bit/helper/.nolicense
+/Adcap/VPN/forticlientsslvpn/64bit/helper/forticlientsslvpn.install.log
+/Adcap/VPN/forticlientsslvpn/64bit/helper/forticlientsslvpn.log
+/Adcap/VPN/forticlientsslvpn/64bit/helper/pppd.log
