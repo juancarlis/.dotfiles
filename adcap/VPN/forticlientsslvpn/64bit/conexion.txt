@@ -1,0 +1,5 @@
+server: vpn1.ad-cap.com.ar
+port: 11443
+
+vpnuser: jicarlis
+password: Adcap2022
