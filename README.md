@@ -25,3 +25,16 @@ git clone https://github.com/juancarlis/.dotfiles.git
 cd .dotfiles
 stow .
 ```
+
+
+## Edit ZSH configuration
+Move plugins to ZSH local plugin folder
+Example in Manjaro
+```bash
+mv zsh_plugins/* /usr/share/zsh/plugins
+```
+Add to .zshrc:
+```
+source ~/.zshrc_aliases
+plugins(git)
+```
