@@ -4,3 +4,9 @@
 /Adcap/VPN/forticlientsslvpn/64bit/helper/forticlientsslvpn.install.log
 /Adcap/VPN/forticlientsslvpn/64bit/helper/forticlientsslvpn.log
 /Adcap/VPN/forticlientsslvpn/64bit/helper/pppd.log
+
+adcap_aws_access_keys/
+
+
+# Zip files
+*.zip
