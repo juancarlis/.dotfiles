@@ -1,0 +1,87 @@
+Reporting:
+  protocol: SCP
+  port: 22
+  user: ec2-user
+  PRD:
+    ip: 10.90.11.37
+  STG:
+    ip: 10.91.9.81
+
+digital: 
+  protocol: SCP
+  port: 22
+  user: ec2-user
+  PRD:
+    address: digital.ad-cap.com.ar
+  STG:
+    address: digital.bnzlab.com
+
+34.238.49.142/WebDAV:
+  protocol: WebDAV
+  encryption: Cifrado SSL/TLS implícito
+  ip: 34.238.49.142
+  port: 443
+  user: ec2-user
+
+34.238.49.142/SCP:
+  protocol: SCP
+  encryption: Cifrado SSL/TLS implícito
+  ip: 34.238.49.142
+  port: 22
+  user: ec2-user
+
+ec2-user@34.226.97.89:
+  protocol: SFTP
+  address: etl.ad-cap.com.ar
+  port: 22
+  user: ec2-user
+
+etlpython:
+  protocol: SCP
+  port: 22
+  user: ec2-user
+  PRD:
+    address: etlpython.ad-cap.com.ar
+  STG:
+    address: etlpython.bnzlab.com
+
+intranet:
+  protocol: SFTP
+  address: intranet.bnzlab.com
+  port: 22
+  user: ubuntu
+
+reporting.bnzlab:
+  protocol: SCP
+  address: reporting.bnzlab.com.ar
+  port: 22
+  user: ec2-user
+
+rundeck.banzalab:
+  protocol: SFTP
+  port: 22
+  address: rundeck.banzalab.com
+  user: ec2-user
+
+rundeck.bnzlab:
+  protocol: SFTP
+  port: 22
+  address: rundeck.bnzlab.com
+  user: ec2-user
+
+S3:
+  protocol: Amazon S3
+  port: 443
+  address: s3.amazonaws.com
+  id_access_key: AKIATAKNXUUQTJZ5FEIQ
+  password: unknown
+
+Trake:
+  protocol: SCP
+  port: 22
+  user: ec2-user
+  PRD:
+    ip: 10.90.8.178
+  STG:
+    ip: 10.91.0.130
+  
