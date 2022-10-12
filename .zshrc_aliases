@@ -1,2 +1,7 @@
 alias cls='clear&&ls'
 alias gg='git superlog'
+
+# Run rmd path/to/markdown/file.md to open up as webpage in Lynx
+rmd() {
+  pandoc $1 | lynx -stdin
+}
